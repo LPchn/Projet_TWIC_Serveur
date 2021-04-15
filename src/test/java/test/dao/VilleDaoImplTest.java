@@ -15,7 +15,7 @@ import com.modele.Ville;
 public class VilleDaoImplTest {
 
 	@Test
-	public void testSupprimerVille() throws DaoException {		/*
+	public void testSupprimerVille() throws DaoException {	
 		DaoFactory dao = DaoFactory.getInstance();
 		VilleDao villeDao = dao.getUtilisateurDao();
 		List<Ville> villesAvantSupression = villeDao.getVille();
@@ -30,10 +30,7 @@ public class VilleDaoImplTest {
 				villePresente = true;
 			}
 		}
-		//Assert.assertFalse(villePresente);
-		*/
-		 
-		
+		Assert.assertFalse(villePresente);		
 	}
 
 }
